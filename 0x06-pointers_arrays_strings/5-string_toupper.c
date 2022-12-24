@@ -6,9 +6,9 @@
  * @n: pointer
  * Return:char
  */
- char *string_toupper(char *n)
- {
- 	int i;
+char *string_toupper(char *n)
+{
+	int i;
 
 	i = 0;
 	while (n[i] != '\0')
@@ -18,4 +18,4 @@
 		i++;
 	}
 	return (n);
- }
+}
