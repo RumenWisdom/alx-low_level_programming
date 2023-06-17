@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-/* more he */
+#include <stdio.h>
 
 /* main - Entry point
  * Return- Returns (0) always (success)
