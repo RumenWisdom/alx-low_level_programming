@@ -8,18 +8,12 @@
 int main(void)
 {
 	int num = 48;
-	int bum = 97;
 
 	while (num <= 57)
 	{
 		putchar(num);
-		num++;
-	}
-
-	while (bum <= 102)
-	{
-		putchar(bum);
-		bum++;
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
