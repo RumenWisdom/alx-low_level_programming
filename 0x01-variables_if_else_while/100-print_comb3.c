@@ -8,18 +8,17 @@
 int main(void)
 {
 	int num;
+	int bum;
 
 	for (num = 48; num <= 57; num++)
 	{
-		putchar(num);
-
-		if (num == 57)
+		for (bum = 49; bum <= 57; bum++)
 		{
-			break;
+			putchar(num);
+			putchar(bum);
+			putchar(',');
+			putchar(' ');
 		}
-		putchar(',');
-		putchar(' ');
 	}
-	putchar('\n');
 	return (0);
 }
