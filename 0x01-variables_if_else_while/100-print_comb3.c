@@ -14,8 +14,16 @@ int main(void)
 	{
 		for (bum = 49; bum <= 57; bum++)
 		{
+			if (num >= bum)
+			{
+				continue;
+			}
 			putchar(num);
 			putchar(bum);
+			if (num == 56 && bum == 57)
+			{
+				break;
+			}
 			putchar(',');
 			putchar(' ');
 		}
