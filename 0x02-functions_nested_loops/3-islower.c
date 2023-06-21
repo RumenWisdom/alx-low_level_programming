@@ -3,7 +3,7 @@
 /**
  * _islower - Entry point
  *
- * @c: the character is an argument that will be 
+ * @c: the character is an argument that will be
  * imputed when declaring the function
  *
  * Return: Always 0 (Success)
