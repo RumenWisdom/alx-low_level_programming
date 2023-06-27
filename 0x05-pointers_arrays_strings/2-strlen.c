@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * _strlen - The main entry point
  *
  * @s: character input
  *

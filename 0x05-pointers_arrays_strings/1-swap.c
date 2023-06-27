@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * swap_int(int *a, int *b) - Entry point
+ * swap_int - This is the main entry point
  *
  * @a: integer input to be swapped
  *

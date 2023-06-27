@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * reset_to_98 - This is the main entry point
  *
  * @n: the interger to be imputed
  *
