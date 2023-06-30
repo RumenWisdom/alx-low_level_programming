@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 /**
  * _strcat - Entry point
@@ -17,7 +17,7 @@ char *_strcat(char *dest, char *src)
 	a = 0;
 	while (dest[a] != '\0')
 	{
-		i++;
+		a++;
 	}
 	k = 0;
 	while (src[k] != '\0')
