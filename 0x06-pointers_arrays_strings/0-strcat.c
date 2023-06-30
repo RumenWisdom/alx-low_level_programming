@@ -3,9 +3,9 @@
 /**
  * _strcat - Entry point
  *
- * @dest - file destination
+ * @dest: file destination input
  *
- * @src - file source
+ * @src: file source input
  *
  * Return: Always 0 (Success)
  */
