@@ -2,13 +2,9 @@
 
 /**
  *_memcpy - input function for memory data
-
  *@dest: input memory destinatoion/storage
-
  *@src: input memory source
- 
  *@n: number of bytes
-
  *Return: returns input destination
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
