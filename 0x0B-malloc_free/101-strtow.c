@@ -3,7 +3,7 @@
 
 /**
  * count_word - function helps count the number of words
- *   
+ *
  * @s: charater string to be evaluated
  *
  * Return: word count
