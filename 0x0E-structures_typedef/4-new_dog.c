@@ -2,34 +2,30 @@
 #include "dog.h"
 
 /**
- * _strlen - returns the length of a string
+ * _strlen - function will return the total string length
  *
- * @s: string to evaluate
+ * @s: string to be evaluated
  *
- * Return: the length of the string
+ * Return: string length
  */
 int _strlen(char *s)
 {
-	int i;
+	int a;
 
-	i = 0;
+	a = 0;
 
-	while (s[i] != '\0')
+	while (s[a] != '\0')
 	{
-		i++;
+		a++;
 	}
 
-	return (i);
+	return (a);
 }
 
 /**
- * *_strcpy - copies the string pointed to by src
+ * *_strcpy - function copies the string pointed to by src
  *
- * including the terminating null byte (\0)
- *
- * to the buffer pointed to by dest
- *
- * @dest: pointer to the buffer in which we copy the string
+ * @dest: pointer to the string buffer
  *
  * @src: string to be copied
  *
@@ -37,30 +33,30 @@ int _strlen(char *s)
  */
 char *_strcpy(char *dest, char *src)
 {
-	int len, i;
+	int num, a;
 
-	len = 0;
+	num = 0;
 
-	while (src[len] != '\0')
+	while (src[num] != '\0')
 	{
-		len++;
+		num++;
 	}
 
-	for (i = 0; i < len; i++)
+	for (a = 0; a < num; a++)
 	{
-		dest[i] = src[i];
+		dest[a] = src[a];
 	}
-	dest[i] = '\0';
+	dest[a] = '\0';
 
 	return (dest);
 }
 
 /**
- * new_dog - creates a new dog
+ * new_dog - function will create new dog profile
  *
- * @name: name of the dog
+ * @name: name
  *
- * @age: age of the dog
+ * @age: age
  *
  * @owner: owner of the dog
  *
@@ -68,23 +64,23 @@ char *_strcpy(char *dest, char *src)
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *dog;
-	int len1, len2;
+	old_dog *dog;
+	int num1, num2;
 
-	len1 = _strlen(name);
-	len2 = _strlen(owner);
+	num1 = _strlen(name);
+	num2 = _strlen(owner);
 
-	dog = malloc(sizeof(dog_t));
+	dog = malloc(sizeof(old_dog));
 	if (dog == NULL)
 		return (NULL);
 
-	dog->name = malloc(sizeof(char) * (len1 + 1));
+	dog->name = malloc(sizeof(char) * (num1 + 1));
 	if (dog->name == NULL)
 	{
 		free(dog);
 		return (NULL);
 	}
-	dog->owner = malloc(sizeof(char) * (len2 + 1));
+	dog->owner = malloc(sizeof(char) * (num2 + 1));
 	if (dog->owner == NULL)
 	{
 		free(dog);
