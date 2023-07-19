@@ -64,13 +64,13 @@ char *_strcpy(char *dest, char *src)
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	old_dog *dog;
+	dog_t *dog;
 	int num1, num2;
 
 	num1 = _strlen(name);
 	num2 = _strlen(owner);
 
-	dog = malloc(sizeof(old_dog));
+	dog = malloc(sizeof(dog_t));
 	if (dog == NULL)
 		return (NULL);
 
