@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
 	size = atoi(argv[1]);
 
-	if (bytes < 0)
+	if (size < 0)
 	{
 		printf("Error\n");
 		exit(2);
